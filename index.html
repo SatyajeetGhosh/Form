@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Create Account</h2>
+        </div>
+        <form class="form" id="form">
+
+            <div class="form-control">
+                <label>Name</label>
+                <input type="text" placeholder="Enter Name" id="name">
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Register No.</label>
+                <input type="tel" placeholder="Enter Phone No." pattern="[0-9]{6}" id="regno">
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Username</label>
+                <input type="text" placeholder="Enter Username" id="username">
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Email</label>
+                <input type="email" placeholder="Enter Email" id="email">
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Phone</label>
+                <input type="tel" placeholder="Enter Phone No." pattern="[0-9]{10}" id="phone">
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Password</label>
+                <input type="password" placeholder="Enter Password" id="password">
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Confirm Password</label>
+                <input type="password" placeholder="Retype Password" id="password2">
+                <small>Error Message</small>
+            </div>
+
+            <button>Submit</button>
+
+        </form>
+    </div>
+</body>
+</html>
